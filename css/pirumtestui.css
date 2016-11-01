@@ -1,0 +1,111 @@
+* {  margin: 0;  padding:0; }
+body { padding: 1em; font-size: 12px; }
+input.isin  { width: 10em; text-align: right; }
+input.descr { width: 30em; }
+
+.omni { color: #88a5c5; cursor: pointer; }
+.omni_help { left: -6px; position: relative; top: -1px; }
+.omni_mag_glass { left: -30px; position: relative; top: 2px; }
+
+i.clear_filter {
+  color: #b30000;
+  display: inline;
+  vertical-align: top;
+  position: relative;
+  left: -30px;
+  margin-top: 0;
+  margin-right: -8px;
+  cursor: pointer;
+  top: 2px;
+}
+
+/* My Stuff */
+header {
+	padding:20px;
+	width:100%;
+}
+
+input,
+select {
+	border-radius:0;
+	border:1px solid;
+	margin:0 5px;
+	min-width:100px;
+	min-height:20px;
+	padding:5px 10px;
+}
+
+#items-container {
+	border:1px solid;
+	display:table;
+	margin:0 auto;
+	min-height:150px;
+	padding: 0;
+	width:100%;
+}
+
+.data-cell {
+	border:1px solid #f2f2f2;
+	display:table-cell;
+	font-size:12px;
+	text-align:center;
+	width:auto;
+}
+
+.data-header,
+.data-row {
+	display:table-row;
+	width:100%;
+}
+
+.data-header {
+	background-color:#000;
+	color:#fff;
+	height:20px;
+	text-transform:uppercase;
+}
+
+#data-results {
+}
+
+/* Form Fields */
+#filter_table_length {
+	
+}
+
+
+
+.help-text {
+	display:inline-block;
+	padding:0 10px;
+}
+
+.hide-show {
+	color:#fff;
+	text-shadow: -1px 0 #333, 0 1px #333,
+      1px 0 #333, 0 -1px #333; 
+	
+}
+
+.quick-dash {
+	text-shadow: -1px 0 #fff, 0 1px #fff,
+      1px 0 #fff 0 -1px #fff; 
+}
+
+/* Bootstrap over rides */
+
+.main {
+    padding: 75px 5px 0px;
+}
+
+.left {
+	float:left;
+}
+
+.right  {
+	float:right;
+}
+
+.hidden {
+	display:none;
+}
